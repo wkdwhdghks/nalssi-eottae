@@ -1,0 +1,14 @@
+node_modules
+.expo
+.expo-shared
+dist
+build
+android
+ios
+coverage
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.ttf
+*.otf
