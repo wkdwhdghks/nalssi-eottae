@@ -1,6 +1,3 @@
-import { StyleSheet } from 'react-native';
-
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { useFonts } from 'expo-font';
 import { Slot } from 'expo-router';
 
@@ -15,15 +12,5 @@ export default function RootLayout() {
 
   if (!loaded) return null;
 
-  return (
-    <SafeAreaView style={styles.safeAreaView}>
-      <Slot />
-    </SafeAreaView>
-  );
+  return <Slot />;
 }
-
-const styles = StyleSheet.create({
-  safeAreaView: {
-    flex: 1,
-  },
-});
