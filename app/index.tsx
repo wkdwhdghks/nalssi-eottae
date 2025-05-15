@@ -27,7 +27,7 @@ export default function HomeScreen() {
         <Text style={styles.address}>{address}</Text>
 
         <View style={styles.tempContainer}>
-          <Text style={styles.temp}>21°</Text>
+          <Text style={styles.temp}>°</Text>
         </View>
       </View>
     </SafeAreaView>
